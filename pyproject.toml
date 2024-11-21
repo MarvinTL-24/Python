@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "biblioteca"
+version = "0.1.0"
+description = "Estudos"
+authors = ["Marvin <escorpiano18@bol.com.br>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13"
+pip = "install"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "install"
+django = "install"
+flash = "install"
+flake8 = "install"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
